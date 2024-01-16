@@ -4,5 +4,5 @@ Year = gets.chomp.to_i
 Actyear =2024
 
 (Actyear-Year+1).times do |i|
-    puts "tu a vécu l'année #{Year+i}"
+    puts "En #{Year+i} tu avais #{i} ans"
 end
